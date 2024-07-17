@@ -20,14 +20,13 @@ pip install flash-attn --no-build-isolation
 ```
 
 ## Data Preparation
-Download [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main).
+Download [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main). "train_samples_tuning.json" corresponds to the annotations of painting formal analysis for instruction finetuning. 
 
 The overall pipeline of constructing our PaintingForm:
 <div align=center>
-<img src="data_pipeline.png" width="1000px">
+<img src="data_pipeline.png" width="800px">
 </div>
 
-"train_samples_tuning.json" corresponds to the annotations of painting formal analysis for instruction finetuning. 
 
 Place the data in the root or other directory.
 Data structure:
