@@ -23,9 +23,9 @@ pip install flash-attn --no-build-isolation
 Download [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main).
 
 The overall pipeline of constructing our PaintingForm:
-
-<img src="data_pipeline.png" width="500px">
-
+<div align=center>
+<img src="data_pipeline.png" width="1000px">
+</div>
 
 "train_samples_tuning.json" corresponds to the annotations of painting formal analysis for instruction finetuning. 
 
