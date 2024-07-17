@@ -46,7 +46,7 @@ You can download [base model](https://huggingface.co/Lin-Chen/ShareGPT4V-7B) the
 python 
 ```
 ## Acknowledgement
-The project is built on top of the amazing [LLaVA](https://github.com/haotian-liu/LLaVA) repository and [ShareGPT4V](https://github.com/lupantech/MathVista) repository. Thanks for their contributions!
+The project is built on top of the amazing [LLaVA](https://github.com/haotian-liu/LLaVA) repository and [ShareGPT4V](https://github.com/ShareGPT4Omni/ShareGPT4V) repository. Thanks for their contributions!
 
 
 If you find our work helpful to your research, please consider citing us with this BibTeX:
