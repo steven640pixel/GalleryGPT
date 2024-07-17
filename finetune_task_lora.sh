@@ -21,7 +21,7 @@ deepspeed --include localhost:0 llava/train/train_mem.py \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 2496 \
+    --save_steps 2810 \
     --save_total_limit 10 \
     --learning_rate 2e-5 \
     --weight_decay 0. \
