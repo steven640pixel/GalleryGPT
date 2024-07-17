@@ -24,7 +24,7 @@ Download [PaintingForm dataset](https://huggingface.co/datasets/steven16/Paintin
 
 The overall pipeline of constructing our PaintingForm:
 
-<img src="data_pipeline.png" width="210px">
+<img src="data_pipeline.png" width="500px">
 
 
 "train_samples_tuning.json" corresponds to the annotations of painting formal analysis for instruction finetuning. 
