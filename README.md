@@ -3,7 +3,8 @@
 This repository contains the code, data and model for the paper titled "GalleryGPT: Analyzing Paintings with Large Multimodal Models".
 
 ## Latest News 🔥
-* [2024-7-18] We released [code](https://github.com/steven640pixel/Gallery-GPT), [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link)
+* [2024-7-18] We released [code](https://github.com/steven640pixel/Gallery-GPT), [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link).
+* [2024-7-16] The paper has been accepted by ACM MM 2024.
 
 ## Install Packages
 ```
