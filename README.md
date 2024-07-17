@@ -5,7 +5,7 @@ This repository contains the code, data and model for the paper titled "GalleryG
 ![ex1]()
 
 ## Latest News 🔥
-* [2024-7-18] We released [code](https://github.com/steven640pixel/Gallery-GPT), [Painting-Form dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA Checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link)
+* [2024-7-18] We released [code](https://github.com/steven640pixel/Gallery-GPT), [Painting-Form dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link)
 
 ## Install Packages
 ```
@@ -42,7 +42,7 @@ sh finetune_lora_task.sh
 ```
 
 ## Checkpoints and Inference
-You can download [base model](https://huggingface.co/Lin-Chen/ShareGPT4V-7B) then replace config.json with ours in root directory, and [LoRA Checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link).
+You can download [base model](https://huggingface.co/Lin-Chen/ShareGPT4V-7B) then replace config.json with ours in root directory, and [LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link).
 For inference:
 ```
 python 
