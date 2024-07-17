@@ -4,6 +4,10 @@ This repository contains the code, data and model for the paper titled "GalleryG
 
 ![ex1]()
 
+## Latest News 🔥
+* [2023-06-26] We released [Math-LLaVA checkpoints](https://huggingface.co/Zhiqiang007/Math-LLaVA/tree/main). The Math-LLaVA-13B model achieves **46.6%** on MathVista testmini, achieves **38.3%** on MMMU, and achieves **15.69%** on MATH-V.
+* [2024-7-18] We released [code](https://github.com/steven640pixel/Gallery-GPT), [Painting-Form dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA Checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link)
+
 ## Install Packages
 ```
 cd Gallery-GPT
@@ -38,13 +42,13 @@ Data structure:
 sh finetune_lora_task.sh
 ```
 
-## Checkpoints
-You can download [base model](https://huggingface.co/Lin-Chen/ShareGPT4V-7B) then replace config.json with ours in root directory, and [LoRA weights](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link) 
-
-## Inference
+## Checkpoints and Inference
+You can download [base model](https://huggingface.co/Lin-Chen/ShareGPT4V-7B) then replace config.json with ours in root directory, and [LoRA Checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link).
+For inference:
 ```
 python 
 ```
+
 ## Acknowledgement
 The project is built on top of the amazing [LLaVA](https://github.com/haotian-liu/LLaVA) repository and [ShareGPT4V](https://github.com/ShareGPT4Omni/ShareGPT4V) repository. Thanks for their contributions!
 
