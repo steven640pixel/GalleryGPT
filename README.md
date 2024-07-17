@@ -49,7 +49,8 @@ sh finetune_task_lora.sh
 ## Checkpoints and Inference
 You can download [base model](https://huggingface.co/Lin-Chen/ShareGPT4V-7B/tree/main) then replace config.json with ours in root directory, and [LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link). For inference:
 ```
-python 
+cd llava/eval
+python run_llava.py --model-path llava-lora-model --model-base share4v/llava-7b --image-file your/image/path --query  
 ```
 
 ## Acknowledgement
