@@ -2,10 +2,8 @@
 
 This repository contains the code, data and model for the paper titled "GalleryGPT: Analyzing Paintings with Large Multimodal Models".
 
-![ex1]()
-
 ## Latest News 🔥
-* [2024-7-18] We released [code](https://github.com/steven640pixel/Gallery-GPT), [Painting-Form dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link)
+* [2024-7-18] We released [code](https://github.com/steven640pixel/Gallery-GPT), [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link)
 
 ## Install Packages
 ```
@@ -22,7 +20,11 @@ pip install flash-attn --no-build-isolation
 ```
 
 ## Data Preparation
-Download [Painting-Form dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main).
+Download [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main).
+
+The overall pipeline of constructing our PaintingForm:
+![ex1](data pipeline.png)
+
 
 "train_samples_tuning.json" corresponds to the annotations of painting formal analysis for instruction finetuning. 
 
