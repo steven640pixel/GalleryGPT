@@ -90,8 +90,6 @@ def get_length_grouped_indices(lengths, batch_size, world_size, generator=None, 
 
     #indices = torch.randperm(len(lengths), generator=generator)
     indices = torch.arange(0,len(lengths))
-    print(indices)
-    
     megabatch_size = world_size * batch_size
     megabatches = [indices[i : i + megabatch_size].tolist() for i in range(0, len(lengths), megabatch_size)]
     megabatches = [sorted(megabatch, key=lambda i: lengths[i], reverse=True) for megabatch in megabatches]
