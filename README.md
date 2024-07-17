@@ -43,7 +43,7 @@ Data structure:
 Download [ShareGPT4V-7B](https://huggingface.co/Lin-Chen/ShareGPT4V-7B/tree/main) as base model and place in ./share4v/llava-7b, then replace config.json with ours in root directory. 
 Run script:
 ```
-sh finetune_lora_task.sh
+sh finetune_task_lora.sh
 ```
 
 ## Checkpoints and Inference
