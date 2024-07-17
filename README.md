@@ -40,6 +40,7 @@ Data structure:
 ```
 
 ## Run LoRA-finetuning
+Download [ShareGPT4V-7B](https://huggingface.co/Lin-Chen/ShareGPT4V-7B/tree/main) as base model and put in ./share4v/llava-7b then replace config.json with ours in root directory. Run script:
 ```
 sh finetune_lora_task.sh
 ```
