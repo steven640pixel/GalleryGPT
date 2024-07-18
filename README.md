@@ -54,7 +54,7 @@ python run_llava.py --model-path llava-lora-model --model-base share4v/llava-7b 
 ```
 
 ## Acknowledgement
-The project is built on top of the amazing [LLaVA](https://github.com/haotian-liu/LLaVA) repository and [ShareGPT4V](https://github.com/ShareGPT4Omni/ShareGPT4V) repository. Thanks for their contributions!
+The project is built on top of the amazing [LLaVA](https://github.com/haotian-liu/LLaVA) repository and [ShareGPT4V](https://github.com/ShareGPT4Omni/ShareGPT4V) repository. Thanks for their contributions.
 
 
 If you find our work helpful to your research, please consider citing us with this BibTeX:
