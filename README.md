@@ -54,6 +54,16 @@ You can download [base model](https://huggingface.co/Lin-Chen/ShareGPT4V-7B/tree
 cd llava/eval
 python run_llava.py --model-path llava-lora-model --model-base share4v/llava-7b --image-file your/image/path --query  
 ```
+## Results on PaintingForm
+Captioning metrics on our test set:
+
+| Model                 | BLEU    | GLEU    | METEOR   |ROUGE    |
+|-----------------------|--------|--------|--------|--------|
+| LLaVA-1.5-7B           |9.87|14.59|26.19|26.37|
+| Qwen-VL-Chat-7B        |13.65| 16.42| 29.78| 26.72|
+| ShareGPT4V-7B             |12.38 |16.14| 31.53| 26.63|
+| GalleryGPT-7B         |21.23| 21.68| 37.62| 31.34|
+
 
 ## Acknowledgement
 The project is built on top of the amazing [LLaVA](https://github.com/haotian-liu/LLaVA) repository and [ShareGPT4V](https://github.com/ShareGPT4Omni/ShareGPT4V) repository. Thanks for their contributions.
