@@ -4,7 +4,7 @@ This repository contains the code, data and model for the paper titled "GalleryG
 
 ## Latest News 🔥
 * [2024-7-18] We released [code](https://github.com/steven640pixel/GalleryGPT), [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link).
-* [2024-7-16] The paper has been accepted by ACM MM 2024 (**Oral, Top 3.97%**).
+* [2024-7-16] The paper has been accepted by ACM MM 2024 <font color="#dd0000">(**Oral, Top 3.97%**)</font><br />.
 
 ## Install Packages
 ```
