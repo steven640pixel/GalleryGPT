@@ -81,7 +81,7 @@ If you find our work helpful to your research, please consider citing us with th
                See-Kiong Ng and
                Heng Tao Shen}
   title     = {GalleryGPT: Analyzing Paintings with Large Multimodal Models},
-  booktitle = {Proceedings of the 32th ACM International Conference on Multimedia, 28 October – 1 November, 2024, Melbourne, Australia.},
+  booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia, 28 October – 1 November, 2024, Melbourne, Australia.},
   year      = {2024},
 }
 ```
