@@ -27,7 +27,7 @@ Download [PaintingForm dataset](https://huggingface.co/datasets/steven16/Paintin
 
 The overall pipeline of constructing our PaintingForm:
 <div align=center>
-<img src="datapipeline.png" width="800px">
+<img src="fig/datapipeline.png" width="800px">
 </div>
 
 
@@ -64,6 +64,16 @@ Captioning metrics on our test set:
 | ShareGPT4V-7B             |12.38 |16.14| 31.53| 26.63|
 | GalleryGPT-7B         |21.23| 21.68| 37.62| 31.34|
 
+## Cases
+Qualitative comparison of formal analysis generation:
+<div align=center>
+<img src="fig/qualitative_comparison.png" width="800px">
+</div>
+
+Dialogue examples:
+<div align=center>
+<img src="fig/chatcase.png" width="800px">
+</div>
 
 ## Acknowledgement
 The project is built on top of the amazing [LLaVA](https://github.com/haotian-liu/LLaVA) repository and [ShareGPT4V](https://github.com/ShareGPT4Omni/ShareGPT4V) repository. Thanks for their contributions.
