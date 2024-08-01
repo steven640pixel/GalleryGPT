@@ -65,7 +65,7 @@ Captioning metrics on our test set:
 | GalleryGPT-7B         |21.23| 21.68| 37.62| 31.34|
 
 ## Cases
-Qualitative comparison of formal analysis generation:
+Formal analysis generation:
 <div align=center>
 <img src="fig/qualitative_comparison.png" width="800px">
 </div>
