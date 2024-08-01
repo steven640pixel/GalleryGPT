@@ -27,7 +27,7 @@ Download [PaintingForm dataset](https://huggingface.co/datasets/steven16/Paintin
 
 The overall pipeline of constructing our PaintingForm:
 <div align=center>
-<img src="data_pipeline.png" width="800px">
+<img src="datapipeline.png" width="800px">
 </div>
 
 
