@@ -1,6 +1,6 @@
 # GalleryGPT
 
-This repository contains the code, data and model for the paper titled "GalleryGPT: Analyzing Paintings with Large Multimodal Models".
+This repository contains the code, data and model for the paper titled "[GalleryGPT: Analyzing Paintings with Large Multimodal Models](https://arxiv.org/abs/2408.00491)".
 
 ## Latest News 🔥
 * [2024-7-18] We released [code](https://github.com/steven640pixel/GalleryGPT), [PaintingForm dataset](https://huggingface.co/datasets/steven16/Painting-Form/tree/main) and [GalleryGPT LoRA checkpoint](https://drive.google.com/drive/folders/1qLbnxxBwZ15ejaHES_LRCi2Fahv3Od5G?usp=drive_link).
